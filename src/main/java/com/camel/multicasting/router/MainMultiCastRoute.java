@@ -16,6 +16,13 @@ import org.apache.camel.builder.RouteBuilder;
 
 import org.springframework.stereotype.Component;
 
+/**
+ * Class to define the Main Route which will be invoked when the
+ * application gets started
+ *
+ * @author Vishwajit
+ */
+
 @Slf4j
 @Component
 public class MainMultiCastRoute extends RouteBuilder {

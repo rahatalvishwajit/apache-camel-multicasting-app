@@ -6,6 +6,13 @@ import java.util.List;
 import org.apache.camel.AggregationStrategy;
 import org.apache.camel.Exchange;
 
+/**
+ * Class to implement the AggregationStrategy to aggregate the response
+ * from all sub-routes that have been invoked
+ *
+ * @author Vishwajit
+ */
+
 public class SimpleFlowMergeAggregator implements AggregationStrategy {
 
     @Override

@@ -6,6 +6,12 @@ import org.apache.camel.builder.RouteBuilder;
 
 import org.springframework.stereotype.Component;
 
+/**
+ * Class to define the sub route - MultiCastRoute3
+ *
+ * @author Vishwajit
+ */
+
 @Component
 public class MultiCastRoute3 extends RouteBuilder {
 
